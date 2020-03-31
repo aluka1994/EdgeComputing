@@ -35,6 +35,8 @@
 .idea/modules.xml
 .idea/*.iml
 .idea/*.xml
+controller/.idea/*.xml
+worker/.idea/*.xml
 .idea/modules
 *.iml
 # *.ipr
