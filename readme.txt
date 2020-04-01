@@ -1,5 +1,5 @@
 
-Client(raspberry pi) side:
+#Client(raspberry pi) side:
 1) Motion sensor: when a motion is sensed by a sensor, a command to record video for 5 seconds starts. After recording the video, a message is sent to redis queue that there is an input video to process. Before running this, create a cloudProject/inputFiles, cloudProject/resultFiles folders to store the data.Place the survillence_cc.py file in the darknet folder of PI and then run the following command:
 
 python survillence_cc.py
@@ -25,7 +25,7 @@ This will run in a loop and checks if there are any messages in the queue and ba
 
 ====
 
-Server side:
+#Server side:
 
 There are two main programs: 1) controller 2) worker
 
